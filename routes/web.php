@@ -18,6 +18,4 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
-
-
 Route::get('/', [HomeController::class, 'index']);
