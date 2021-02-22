@@ -1,40 +1,92 @@
-
-.jumbo
-{
-  padding-top: 5px;
+*{
+    font-family: 'Mulish', sans-serif;
 }
-.img-custom
-{
-    width: 458px;
-    height: 458px;
-    
-    
-    box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.15);
-    border-radius: 5px  5px 80px 5px;
-    z-index: 2;
-    
+nav a.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color:  #0E49B5;
 }
 
-.border
-{
-   
-width: 458px;
-height: 458px;
-
-border: 2px solid #F5F2F2;
-box-sizing: border-box;
-border-radius: 5px 5px 80px 5px;
-z-index: 1;
+nav button.navbar-toggler{
+    background-color: #0E49B5;
+    padding: 10px;
 }
 
-.lead
-{
-    color: white;
+nav button span.toggler-nav{
+    color: #FFFFFF;
 }
 
-.jumbo
-{
+.title{
+    margin-bottom: 60px;
+}
+
+.section1{
     background: #0E49B5;
 }
 
+.section1 img.foto{
+    width: 100%;
+}
 
+.welcome-text{
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.welcome-text span.strong{
+    font-weight: 800;
+}
+
+.detail-text{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.btn-action,
+.btn-call{
+    background: #FFFFFF;
+    border-radius: 55px;
+    height: 56px;
+    width: 283px;
+    color:  #0E49B5;
+}
+
+a.btn-action,
+a.btn-call{
+    display: block;
+    padding-top: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+span.icon{
+    margin: 50px;
+}
+
+.section2{
+    background-color: #FFFFFF;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.section2 h3{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color:  #0E49B5;
+}
+
+.custom-card{
+    margin: 10px;
+    width: 360px;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}

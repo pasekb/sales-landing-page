@@ -9,12 +9,18 @@ class HomeController extends Controller
 {
     public function index()
     {
+        $unit = Stok::where('stok','>',0)
+        ->groupBy('nama_motor')
+        ->orderBy('nama_motor','asc')
+        ->get();
+
         $stok = Stok::where('stok','>',0)
         ->groupBy('nama_motor','warna')
         ->orderBy('nama_motor','asc')
         ->get();
         return view('index', [
-            'stok' => $stok
+            'stok' => $stok,
+            'unit' => $unit
         ]);
     }
 }

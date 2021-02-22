@@ -1,20 +1,40 @@
-<div class="p-5 jumbo">
-    <div class="container ">
-        <div class="row justify-content-between align-items-center p-5">
-            <div class="col-md-6 col-lg-5  mb-5 lead">
-                <div class="photo-profile col-md-6 col-lg-5  mb-5 mt-5">
-                    <img src="{{ asset('image/jujutsu.jpg') }}" class="img-fluid img-custom" alt=""></div>
+<div class="jumbotron jumbotron-fluid section1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <img src="{{ asset('image/Photo-sales.png') }}" alt="" width="485" class="foto">
+            </div>
 
-                    <p>Jalan - Jalan Ke Balikpapan</p>
-                    <p>Ke Balikpapan dari uluwatu</p>
-                    <p>Salam Semakin Di Depan</p>
-                    <p>Ada yang Bisa Kami Bantu</p>
-                    <button type="button" class="btn btn-light rounded-pill col-4 mt-2 mb-2">Lihat Motor</button>
-                    <p>
-                        <button type="button" class="btn btn-light rounded-pill col-4 mt-2 mb-2">Tanya Promo</button>
+            <div class="col-md-6 col-sm-12">
+                <div class="info-box">
+                    <p class="welcome-text">
+                        Jalan-jalan ke Balikpapan <br>
+                        Ke Balikpapan dari Uluwatu, <br>
+                        <span class="strong">
+                            Salam Semakin Didepan <br>
+                            Ada yang bisa Saya Bantu?
+                        </span>
                     </p>
+                    <p class="detail-text">
+                        Hai, Selamat datang di Showroom Virtual Bisma. <br>
+                        Saya akan membantu Anda disini.
+                    </p>
+
+                    <a href="" class="btn-action">
+                        <span class="icon">
+                            <img src="{{ asset('icon/ic-scooter.png') }}" alt="" width="40" height="40">
+                            &nbsp;&nbsp;Lihat Motor
+                        </span>
+                    </a>
+                    <br>
+                    <a href="" class="btn-call">
+                        <span class="icon">
+                            <img src="{{ asset('icon/ic-wa.png') }}" alt="" width="40" height="40">
+                            &nbsp;&nbsp;Tanya Promo
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+  </div>
 </div>
