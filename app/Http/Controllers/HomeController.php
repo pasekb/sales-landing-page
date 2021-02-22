@@ -13,7 +13,7 @@ class HomeController extends Controller
         ->groupBy('nama_motor','warna')
         ->orderBy('nama_motor','asc')
         ->get();
-        return view('home', [
+        return view('index', [
             'stok' => $stok
         ]);
     }
