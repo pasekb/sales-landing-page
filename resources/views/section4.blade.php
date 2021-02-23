@@ -1,3 +1,4 @@
+<section class="section2">
 <div class="container mt-5 mb-5">
 
 <div class="row">
@@ -128,149 +129,9 @@
             </div>
             <!-- Carousel Item 1 -->
 
-            <div class="carousel-item">
+            
 
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 5&font=noto" alt="Product">
-                            <h4>Product 5</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 6&font=noto" alt="Product">
-                            <h4>Product 6</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 7&font=noto" alt="Product">
-                            <h4>Product 7</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 8&font=noto" alt="Product">
-                            <h4>Product 8</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- Carousel Item 2 -->
-
-            <div class="carousel-item">
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 9&font=noto" alt="Product">
-                            <h4>Product 9</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 10&font=noto" alt="Product">
-                            <h4>Product 10</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 11&font=noto" alt="Product">
-                            <h4>Product 11</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-block">
-                            <img class="d-block w-100" src="https://fakeimg.pl/800x400/?retina=1&text=Product 12&font=noto" alt="Product">
-                            <h4>Product 12</h4>
-                            <small>Variant</small>
-                            <p>$200</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-success" href="#">Add To cart</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="btn btn-sm btn-danger" href="#">More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- Carousel Item 3 -->
+            
 
         </div>
 
@@ -567,39 +428,4 @@
 <!-- End of Row -->
 
 </div>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-<!-- Bootstrap 4 Default CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-<!-- Font Awesome CSS -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-<!-- Additional CSS -->
-<link rel="stylesheet" href="css/main.css">
-
-<!-- Animate CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-
-
-    <!-- End of Container -->
-
-    <!-- JQuery Plugin -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Bootstrap JQuery Plugin -->
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
-    <!-- Additional Javascript -->
-    <script src="js/main.js"></script>
+</section>

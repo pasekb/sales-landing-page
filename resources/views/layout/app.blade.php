@@ -20,6 +20,12 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick.css') }}"/>
         <!-- Add the new slick-theme.css if you want the default styling -->
         <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick-theme.css') }}"/>
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <title>Bisma Sales</title>
 
         @section('css')
@@ -85,10 +91,8 @@
                     {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
                     }
                     },
                     {

@@ -1,5 +1,7 @@
 *{
     font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 nav a.nav-link{
     font-weight: bold;
@@ -69,9 +71,10 @@ span.icon{
 }
 
 .section2{
-    background-color: #FFFFFF;
-    padding-top: 125px;
-    padding-bottom: 125px;
+    background-color: black;
+    margin-top: -32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section2 h3{
@@ -79,7 +82,12 @@ span.icon{
     font-size: 36px;
     line-height: 45px;
     text-align: center;
-    color:  #0E49B5;;
+    color:  white;
+}
+
+.section2 p{
+    color: #0E49B5;
+    font-weight: 800;
 }
 
 .custom-card{
@@ -93,8 +101,8 @@ span.icon{
 
 .section3{
     background-color:  #0E49B5;
-    padding-top: 125px;
-    padding-bottom: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section3 h3{
@@ -118,7 +126,7 @@ span.icon{
     border: unset;
     border-bottom: 3px solid #FFFFFF;
     border-radius: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .form-simulasi:focus{
@@ -131,7 +139,7 @@ span.icon{
 }
 
 .btn-simulasi{
-    margin: auto;
+    margin-top: 20px;
 }
 
 .col-kiri{
