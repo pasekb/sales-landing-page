@@ -79,7 +79,7 @@ span.icon{
     font-size: 36px;
     line-height: 45px;
     text-align: center;
-    color:  #0E49B5;
+    color:  #0E49B5;;
 }
 
 .custom-card{
@@ -89,4 +89,77 @@ span.icon{
     background: #FFFFFF;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+}
+
+.section3{
+    background-color:  #0E49B5;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.section3 h3{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color:  #FFFFFF;
+}
+
+.section3 label{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.form-simulasi{
+    color: white;
+    background-color: transparent;
+    border: unset;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0px;
+    margin-bottom: 80px;
+}
+
+.form-simulasi:focus{
+    background-color: transparent;
+    color: white;
+}
+
+.form-simulasi option{
+    background-color: #3E3E3E;
+}
+
+.btn-simulasi{
+    margin: auto;
+}
+
+.col-kiri{
+    padding-right: 100px;
+}
+
+.col-kanan{
+    padding-left: 100px;
+}
+
+.btn-simulasi{
+    border-style: none;
+    width: 280px;
+    height: 56px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text-bayar{
+    margin-top: 65px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
