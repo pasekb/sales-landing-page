@@ -3,13 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior:smooth;
+}
+
 nav a.nav-link{
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color:  #0E49B5;
-}
+    color:  #0E49B5;}
 
 nav button.navbar-toggler{
     background-color: #0E49B5;
@@ -170,4 +174,91 @@ span.icon{
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.call-to-action{
+    background: #6C6B6B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.call-to-action h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.call-to-action a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #EF9328;
+    border-radius: 55px;
+    display: block;
+    margin-top: 20px;
+    width: 265px;
+    height: 55px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 13px;
+}
+
+footer{
+    background-color: #3E3E3E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+footer a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+}
+
+footer p{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+footer .sosmed a{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+/* Back to Top Pure CSS by igniel.com */
+.floating-btn {
+    width:110px;
+    height:110px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    z-index:99;
+    cursor:pointer; border-radius:100px; transition:all .5s;
+    background: #419F3F;
+}
+.floating-btn:hover{
+    background-color: black;
+}
+
+.floating-btn img{
+    margin-top: 15px;
+    margin-left: 15px;
 }
