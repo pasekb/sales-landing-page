@@ -43,17 +43,13 @@
         </div>
 
         <div class="row justify-content-md-center">
-            <div class="col-md-6 offset-md-3">
-                <button class="btn-action btn-simulasi" id="hitung">
+            <button class="btn-action btn-simulasi" id="hitung">
                     Hitung
-                </button>
-            </div>
+            </button>
         </div>
 
         <div class="row justify-content-md-center text-bayar">
-            <div class="col-md-12">
-                test
-            </div>
+            <h3 id="bayar">Rp. 123.000.000</h3>
         </div>
     </div>
 </section>

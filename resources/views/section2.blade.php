@@ -7,13 +7,16 @@
         </div>
         <div class="autoplay">
             @foreach($unit as $o)
-            <div class="card custom-card" style="width: 18rem;">
-                <img class="card-img-top" src="{{ asset('image/motor-anmax.png') }}" alt="Card image cap" width="360" height="360">
-                <div class="card-body">
-                    <h5 class="card-title">{{ $o->nama_motor }}</h5>
-                    <p class="card-text">Rp. 123.000.000</p>
+                <div class="card custom-card" style="width: 18rem;">
+                    <a href="">
+                        <img class="card-img-top img-fluid" src="{{ asset('image/motor-anmax.png') }}" alt="Card image cap" width="360" height="360">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ $o->nama_motor }}</h5>
+                        <p class="card-text">Rp. 123.000.000</p>
+                    </div>
                 </div>
-            </div>
+            
             @endforeach
         </div>
     </div>
