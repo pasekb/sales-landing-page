@@ -11,6 +11,7 @@
             rel="stylesheet"
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
             crossorigin="anonymous"> -->
+        <link rel="shortcut icon" type="image/jpg" href="{{ asset('image/icon-yamaha.png') }}"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}">
         <!-- Google Font -->
@@ -50,16 +51,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Produk</a>
+                        <a class="nav-link" href="#">PRODUK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kredit</a>
+                        <a class="nav-link" href="#">KREDIT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Layanan</a>
+                        <a class="nav-link" href="#">LAYANAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontak</a>
+                        <a class="nav-link" href="#">KONTAK</a>
                     </li>
                 </ul>
             </div>
@@ -67,6 +68,10 @@
     </nav>
 
     @yield('content')
+
+    <a href="#" class="floating-btn">
+        <img src="{{ asset('image/ic-float-wa-1.png') }}" alt="" class="img-fluid">
+    </a>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -91,14 +96,14 @@
                     {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     }
                     },
                     {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                     },
