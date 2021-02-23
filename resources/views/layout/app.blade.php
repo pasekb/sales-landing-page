@@ -51,16 +51,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PRODUK</a>
+                        <a class="nav-link nav-link-fade-up" href="#">PRODUK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">KREDIT</a>
+                        <a class="nav-link nav-link-fade-up" href="#">KREDIT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">LAYANAN</a>
+                        <a class="nav-link nav-link-fade-up" href="#">LAYANAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">KONTAK</a>
+                        <a class="nav-link nav-link-fade-up" href="#">KONTAK</a>
                     </li>
                 </ul>
             </div>

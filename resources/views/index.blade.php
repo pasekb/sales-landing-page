@@ -3,7 +3,9 @@
 @section('content')
     @include('section1')
     @include('section2')
+    
     @include('section3')
+    @include('section5')
     @include('call-to-action')
     @include('footer')
 @endsection
