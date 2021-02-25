@@ -27,6 +27,10 @@
 
         <!-- Animate CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+        <!-- Data Tables -->
+        <link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+
         <title>Bisma Sales</title>
 
         @section('css')
@@ -85,6 +89,10 @@
     
     <script type="text/javascript" src="{{ asset('slick/slick.min.js') }}"></script>
 
+    <script src="{{ asset('js/simulasi.js') }}"></script>
+
+    <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+
     <script>
         $(document).ready(function(){
             $('.autoplay').slick({
@@ -120,6 +128,12 @@
                 ]
             });
         });
+    </script>
+
+    <script>
+        $(document).ready( function () {
+            $('#myTable').DataTable();
+        } );
     </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
