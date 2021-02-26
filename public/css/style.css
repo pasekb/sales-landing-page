@@ -8,7 +8,26 @@ html {
     scroll-behavior:smooth;
 }
 
+.contact-nav{
+    background-color: #2E2E2E;
+    height: 30px;
+    color: #FFFFFF;
+    padding-top: 2px;
+}
 
+.contact-nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact-nav .number span{
+    color: yellow;
+}
+
+.contact-nav .number a{
+    font-weight: bold;
+}
 
 /*navbar effect*/
 .nav-link {
@@ -65,15 +84,35 @@ nav button span.toggler-nav{
     color: #FFFFFF;
 }
 
+/* Sticky Nav */
+.sticky{
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    height: 40px;
+}
+
+.sticky img{
+    width: 72px;
+    height: 30px;
+}
+
+.sticky #navbarNav ul li a{
+    font-size: 13px;
+}
+
 .title{
     margin-bottom: 60px;
 }
 
-.section1{
+#section1{
     background: #0E49B5;
 }
 
-.section1 img.foto{
+#section1 img.foto{
     width: 100%;
 }
 
@@ -115,14 +154,14 @@ span.icon{
     margin: 50px;
 }
 
-.section2{
+#section2{
     background-color: black;
     margin-top: -32px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.section2 h3{
+#section2 h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
@@ -130,7 +169,7 @@ span.icon{
     color:  white;
 }
 
-.section2 p{
+#section2 p{
     color: #0E49B5;
     font-weight: 800;
 }
@@ -144,13 +183,14 @@ span.icon{
     border-radius: 20px;
 }
 
-.section3{
+#section3{
     background-color:  #0E49B5;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.section3 h3{
+
+#section3 h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
@@ -158,11 +198,21 @@ span.icon{
     color:  #FFFFFF;
 }
 
-.section3 label{
+#section3 label{
     color: #FFFFFF;
     font-weight: bold;
     font-size: 18px;
     line-height: 30px;
+}
+
+#section3 #angsuran p{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#section3 #angsuran h2{
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .form-simulasi{
@@ -208,7 +258,7 @@ span.icon{
 }
 
 .text-bayar{
-    margin-top: 65px;
+    margin-top: 30px;
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
@@ -320,14 +370,14 @@ footer .sosmed a{
     border-radius: 20px;
 }
 
-.section5 h3{
+#section5 h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
     text-align: center;
     color:  #0E49B5;
 }
-.section5{
+#section5{
     background-color: #FFFFFF;
     margin-top: -32px;
     padding-top: 50px;
@@ -335,14 +385,14 @@ footer .sosmed a{
    
 }
 
-.section6{
+#section6{
     background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #FFFFFF;
 }
 
-.section6 h3{
+#section6 h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
@@ -350,7 +400,7 @@ footer .sosmed a{
     color:  #FFFFFF;
 }
 
-.section6 h4{
+#section6 h4{
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -358,7 +408,7 @@ footer .sosmed a{
     color: #FFFFFF;
 }
 
-.section6 p{
+#section6 p{
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
@@ -366,7 +416,7 @@ footer .sosmed a{
     color:#FFFFFF;  
 }
 
-.section6 p.sub-title{
+#section6 p.sub-title{
     font-weight: bold;
 }
 

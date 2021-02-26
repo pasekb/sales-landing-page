@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid section1">
+<div class="jumbotron jumbotron-fluid" id="section1">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -20,7 +20,7 @@
                         Saya akan membantu Anda disini.
                     </p>
 
-                    <a href="" class="btn-action">
+                    <a href="#section2" class="btn-action">
                         <span class="icon">
                             <img src="{{ asset('icon/ic-scooter.png') }}" alt="" width="40" height="40">
                             &nbsp;&nbsp;Lihat Motor

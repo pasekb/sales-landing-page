@@ -8,11 +8,9 @@ const formatter = new Intl.NumberFormat('id-ID', {
   
   })
   
+  function hitung_downpayment(){
   
-  
-  function hitung_dp(){
-  
-    let dp = document.getElementById("dp").value;
+    let dp = document.getElementById("downpayment").value;
   
     let persen = parseFloat(dp) / 100;
   
@@ -20,11 +18,7 @@ const formatter = new Intl.NumberFormat('id-ID', {
   
     let uangmuka = harga*persen;
   
-  
-  
     let rupiah = formatter.format(uangmuka);
-  
-  
   
     if(!isNaN(uangmuka)){
   
@@ -42,7 +36,7 @@ const formatter = new Intl.NumberFormat('id-ID', {
   
     // Hitung Uang Muka
   
-    let dp = document.getElementById("dp").value;
+    let dp = document.getElementById("downpayment").value;
   
     let persen = parseFloat(dp) / 100;
   
@@ -58,8 +52,6 @@ const formatter = new Intl.NumberFormat('id-ID', {
   
     let tenor = document.getElementById("tenor").value;
   
-    let harga = document.getElementById("angka_motor").value;
-  
     let utang = parseFloat(harga)-parseFloat(uangmuka);
   
   
@@ -68,15 +60,15 @@ const formatter = new Intl.NumberFormat('id-ID', {
   
     if (bunga == 0.0175) {
   
-      let admin = 1700000;
+      var admin = 1700000;
   
-      let perasuransi = 0.0144;
+      var perasuransi = 0.0144;
   
     } else if (bunga == 0.024) {
   
-      let admin = 1200000;
+      var admin = 1200000;
   
-      let perasuransi = 0.008;
+      var perasuransi = 0.008;
   
     }
   
