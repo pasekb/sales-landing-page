@@ -9,4 +9,5 @@
     @include('section6')
     @include('call-to-action')
     @include('footer')
+    @include('modal')
 @endsection

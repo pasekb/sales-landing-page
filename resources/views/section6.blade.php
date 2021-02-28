@@ -1,4 +1,4 @@
-<section class="section6">
+<section id="section6">
     <div class="container">
         <div class="row justify-content-md-center title">
             <h3>KONTAK</h3>

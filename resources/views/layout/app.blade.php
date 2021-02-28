@@ -37,9 +37,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="contact-nav">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <div class="float-left number">
+                <a href=""><span>Tanya Promo </span><i class="fas fa-phone"></i> +62 812-4657-1421</a>
+            </div>
+            <div class="float-right">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+                <a href=""><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-custom" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#section1">
                 <img src="{{ asset('image/Logobisma.png') }}" width="144" height="60" alt="">
             </a>
             <button
@@ -55,16 +68,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up" href="#">PRODUK</a>
+                        <a class="nav-link nav-link-fade-up" href="#section2">PRODUK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up" href="#">KREDIT</a>
+                        <a class="nav-link nav-link-fade-up" href="#section3">KREDIT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up" href="#">LAYANAN</a>
+                        <a class="nav-link nav-link-fade-up" href="#section5">LAYANAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up" href="#">KONTAK</a>
+                        <a class="nav-link nav-link-fade-up" href="#section6">KONTAK</a>
                     </li>
                 </ul>
             </div>
@@ -90,6 +103,8 @@
     <script type="text/javascript" src="{{ asset('slick/slick.min.js') }}"></script>
 
     <script src="{{ asset('js/simulasi.js') }}"></script>
+    <script src="{{ asset('js/getmodaldata.js') }}"></script>
+    <script src="{{ asset('js/sticky.js') }}"></script>
 
     <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
 

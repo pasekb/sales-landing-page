@@ -1,4 +1,4 @@
-<section class="section3">
+<section id="section3">
     <div class="container">
         <div class="row title">
             <div class="col-md-6 offset-md-3">
@@ -13,7 +13,7 @@
                 </div>
                 <div class="form-group">
                     <label for="dp">Down Payment (%)</label>
-                    <input type="text" class="form-control form-simulasi" id="dp" name="dp" onkeyup="hitung_dp();">
+                    <input type="text" class="form-control form-simulasi" id="downpayment" name="dp" onkeyup="hitung_downpayment()">
                 </div>
                 <label for="tenor">Jangka Waktu Cicilan</label>
                 <select name="tenor" id="tenor" class="form-control form-simulasi">
@@ -45,13 +45,15 @@
         </div>
 
         <div class="row justify-content-md-center">
-            <button class="btn-action btn-simulasi" id="hitung" onclick="hitung_kredit();">
+            <button class="btn-action btn-simulasi btn-hover" id="hitung" onclick="hitung_kredit();">
                     Hitung
             </button>
         </div>
 
         <div class="row justify-content-md-center text-bayar">
-            <h3 id="angsuran"></h3>
+            <h3 id="angsuran">
+                <!-- hasil js angsuran -->
+            </h3>
         </div>
     </div>
 </section>
