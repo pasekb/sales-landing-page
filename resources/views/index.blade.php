@@ -10,5 +10,4 @@
     @include('call-to-action')
     @include('footer')
     @include('modal')
-    @include('modal-display')
 @endsection

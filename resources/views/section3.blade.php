@@ -45,7 +45,7 @@
         </div>
 
         <div class="row justify-content-md-center">
-            <button class="btn-action btn-simulasi" id="hitung" onclick="hitung_kredit();">
+            <button class="btn-action btn-simulasi btn-hover" id="hitung" onclick="hitung_kredit();">
                     Hitung
             </button>
         </div>

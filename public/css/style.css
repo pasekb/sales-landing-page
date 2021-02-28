@@ -150,6 +150,20 @@ a.btn-call{
     text-decoration: none;
     font-size: 20px;
 }
+
+#section1 a.btn-action{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.801);
+    animation: pulse 1s infinite;
+}
+
+.btn-hover{
+    transition: background-color 0.5s ease-out;
+}
+
+.btn-hover:hover{
+    background-color: rgb(247, 192, 9);
+}
+
 span.icon{
     margin: 50px;
 }
@@ -297,6 +311,14 @@ span.icon{
     font-size: 20px;
     line-height: 25px;
     padding-top: 13px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.801);
+    animation: pulse 1s infinite;
+    transition: all 0.75s ease;
+}
+
+.call-to-action a:hover{
+    background-color:  rgb(247, 192, 9);
+    color: #0E49B5;
 }
 
 footer{

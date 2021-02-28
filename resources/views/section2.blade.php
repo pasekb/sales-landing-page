@@ -8,8 +8,8 @@
         <div class="autoplay">
             @foreach($unit as $o)
                 <div class="card custom-card" style="width: 18rem;">
-                    <a href="#" data-toggle="modal" data-target="#{{ $o->unit_id }}">
-                        <img class="card-img-top img-fluid" src="{{ asset('image/motor-anmax.png') }}" alt="Card image cap" width="360" height="360">
+                    <a href="{{ URL('/,$o->unit_id') }}">
+                        <img class="card-img-top img-fluid" src="{{ asset('image/$o->gambar_id') }}" alt="Card image cap" width="360" height="360">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">{{ $o->nama_motor }}</h5>
